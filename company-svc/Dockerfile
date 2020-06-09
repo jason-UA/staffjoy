@@ -1,4 +1,4 @@
-FROM java:8-jdk-alpine
+FROM openjdk:12-jdk-oracle
 
 COPY ./target/company-svc-1.0.0.jar /usr/app/
 
